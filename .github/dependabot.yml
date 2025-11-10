@@ -10,7 +10,8 @@ updates:
     assignees:
       - "MiRo1310"
     versioning-strategy: "increase"
-    directories: "**/*"
+    directories: 
+      - "**/*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
